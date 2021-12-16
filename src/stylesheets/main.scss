@@ -75,10 +75,10 @@ h1 {
     border-radius: 0;
 }
 
-
+//index page
 .main {
     width: 90vw;
-    height: 50vw;
+    
     margin: auto;
     padding: 60px;
     background-color: rgb(61, 61, 61);
@@ -95,8 +95,10 @@ h1 {
 }
 
 .upload {
-    width: 10%;
-    height: 75%;
+    background-color: #FFDF61;
+    background-image: linear-gradient(to bottom right, #ffcc00, #FFDF61);
+    width: 200px;
+    height: 400px;
     border-radius: 1rem;
     margin-left: 30px;
     margin-right: 30px;
@@ -111,7 +113,6 @@ h1 {
     position: absolute;
   }
 
-
 .bg-yellow {
     background-color: #FFE169;
 }
@@ -119,6 +120,15 @@ h1 {
 .bg-darkeryellow {
     background-color: #FCCF14;
 }
+
+.search-button {
+    background-color: #FFE169;
+    color:#ffffff;
+}
+
+
+
+
 
 // categories page 
 
@@ -154,6 +164,7 @@ h1 {
 .about-us {
     margin: auto;
     padding: 60px;
+    background-color: #ffcc00;
 }
 
 .us {
@@ -162,27 +173,29 @@ h1 {
 }
 
 .text {
-    color: black;
+    color: white;
     margin: auto;
 }
 
 .info {
     margin: 15px;
     padding: 20px;
-    background-color:  #FFE169;
+    background-color: #FFDF61;
     color: black;
     border-radius: 1rem;
 }
 
 //tips page
 
-.tips-body {
+.tips {
+    width: 100%;
 
 }
 
 .most-viewed {
     padding-top: 20px;
     margin: left;
+    width: 80%;
 }
 
 .heading {
@@ -199,7 +212,7 @@ h1 {
 }
 
 .recent-posts {
-    
+    width: 20%;
 }
 
 .heading2 {
@@ -208,4 +221,27 @@ h1 {
 }
 
 
+// results page
 
+.body-results {
+    padding-top: 20px;
+    background-color: rgb(43, 44, 48);
+}
+
+.photo-section {
+    background-color: #FFE169;
+    margin-left: auto;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.caption-results {
+    background-color: rgb(43, 44, 48);
+    margin-right: 0;
+}
+
+.captions {
+    border-bottom: 2px solid #FFF8B7;
+    color: #FFE169;
+    padding-bottom: 5px;
+}

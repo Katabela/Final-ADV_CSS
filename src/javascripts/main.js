@@ -30,3 +30,5 @@ $('input[type="file"]').change(function(e) {
   // read the image file as a data URL.
   reader.readAsDataURL(this.files[0]);
 });
+
+

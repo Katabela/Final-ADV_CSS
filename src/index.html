@@ -60,9 +60,9 @@
     <h1 class="display-5">The CaptionIt Random Generator</h1>
     <p class="light-yellow">Let's begin: Upload a photo and choose any category filters below</p>
 
-    <div class="generator row">
-      <div class="upload bg-warning col my-auto">
-        <div class="ml-2 col-sm-6">
+    <div class="generator row p-4">
+      <div class="upload col my-auto">
+        <div class="ml-2 col">
           <div id="msg"></div>
           <form method="post" id="image-form">
             <input type="file" name="img[]" class="file" accept="image/*">
@@ -85,32 +85,79 @@
         <div class="container p-4">
           <!--Grid row-->
           <div class="row">
+            <div class="form-group">
+              <!--Grid column-->
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li class="p-1">
+                    <button type="button" class="btn btn-warning row">Happy</button>
+                  </li>
+                  <li class="p-1">
+                    <button type="button" class="btn btn-warning row">Clever </button>
+                  </li>
+                  <li class="p-1"> 
+                    <button type="button" class="btn btn-warning row">Funny </button>
+                  </li>
+                  <li class="p-1"> 
+                    <button type="button" class="btn btn-warning row">Sarcastic </button>
+                  </li>
+                  <li class="p-1">
+                    <button type="button" class="btn btn-warning row">Motivational </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <!--Grid column-->
-            <div class="col-lg-2 col-md-2 mb-4 mb-md-0">
-              <ul class="list-unstyled mb-0 pb-2">
+            <div class="col">
+              <ul class="list-unstyled">
                 <li class="p-1">
-                  <button type="button" class="btn btn-warning row">Sweet</button>
-                </li>
-                <li class="p-1">
-                  <button type="button" class="btn btn-warning row">Happy</button>
+                  <button type="button" class="btn btn-warning row">Physical</button>
                 </li>
                 <li class="p-1">
-                  <button type="button" class="btn btn-warning row">Clever </button>
-                </li>
-                <li class="p-1"> 
-                  <button type="button" class="btn btn-warning row">Funny </button>
-                </li>
-                <li class="p-1"> 
-                  <button type="button" class="btn btn-warning row">Sarcastic </button>
+                  <button type="button" class="btn btn-warning row">Outdoors</button>
                 </li>
                 <li class="p-1">
-                  <button type="button" class="btn btn-warning row">Motivational </button>
+                  <button type="button" class="btn btn-warning row">Indoors</button>
                 </li>
                 <li class="p-1">
-                  <button type="button" class="btn btn-warning row">Confident </button>
+                  <button type="button" class="btn btn-warning row">Snow</button>
+                </li>
+                <li class="p-1">
+                  <button type="button" class="btn btn-warning row">Workout</button>
                 </li>
               </ul>
             </div>
+            <!--Grid column-->
+            <div class="col">
+              <ul class="list-unstyled">
+                <li class="p-1">
+                  <button type="button" class="btn btn-warning row">Besties</button>
+                </li>
+                <li class="p-1">
+                  <button type="button" class="btn btn-warning row">Winter</button>
+                </li>
+                <li class="p-1">
+                  <button type="button" class="btn btn-warning row">Night Out</button>
+                </li>
+                <li class="p-1">
+                  <button type="button" class="btn btn-warning row">Birthday</button>
+                </li>
+                <li class="p-1">
+                  <button type="button" class="btn btn-warning row">Christmas</button>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <div class="row">
+              <div class="form-group">
+                  <div class="col">                
+                      <i class="fa fa-search fa-2x searchicon"></i>
+                      <input type="search" class="form-control searchbar" id="search" placeholder="search database - separate with ',' ">
+                  </div>
+              </div>
+          </div>
+            <a href="results.html" type="button" class="btn btn-warning btn-lg btn-block search-button">Caption It!</a>
           </div>
         </div>
       </div>
@@ -118,7 +165,7 @@
 
   </div>
 
-  <footer class="bg-warning text-center text-lg-start">
+  <footer class="bg-warning fixed-bottom">
     <div class="container p-3"></div>
   </footer>
 
